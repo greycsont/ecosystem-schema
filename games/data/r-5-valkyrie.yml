@@ -2,11 +2,17 @@ uuid: "ac6446c4-17ff-4027-b11d-fa7a39c0be2c"
 label: "r5valkyrie"
 meta:
   displayName: "R5Valkyrie"
-  iconUrl: ""
+  iconUrl: "r5valkyrie/r5valkyrie-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:
   displayName: "R5Valkyrie"
+  listed: false
+  meta:
+    icon: "r5valkyrie/r5valkyrie-icon-192x192.webp"
+    cover: "r5valkyrie/r5valkyrie-cover-360x480.webp"
+    background: "r5valkyrie/r5valkyrie-bg-1920x1080.webp"
+    hero: "r5valkyrie/r5valkyrie-bg-1920x620.webp"
   categories:
     legend:
       label: "Legend"
@@ -36,7 +42,15 @@ thunderstore:
       label: "Animation"
     qol:
       label: "QoL"
-  sections: {}
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpack"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpack"
   wikiUrl: "https://playvalkyrie.org/docs"
   discordUrl: "https://discord.gg/GcJSMUGJyD"
   autolistPackageIds: []

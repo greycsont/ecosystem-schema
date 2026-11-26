@@ -2,9 +2,15 @@ uuid: "16728cdd-8bf6-4dcb-adec-5aaa9c8e0d8e"
 label: "rumble"
 meta:
   displayName: "RUMBLE"
+  iconUrl: "rumble/rumble-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "RUMBLE"
+  listed: true
+  meta:
+    icon: "rumble/rumble-icon-192x192.webp"
+    cover: "rumble/rumble-cover-360x480.webp"
+    hero: "rumble/rumble-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -18,6 +24,8 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"

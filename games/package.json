@@ -13,9 +13,11 @@
     "build": "tsx ./src/scripts/build.ts",
     "add": "tsx ./src/scripts/add.ts",
     "deploy": "tsx ./src/scripts/deploy.ts",
+    "serve": "tsx ./src/scripts/serve.ts",
     "validate": "tsx ./src/scripts/validate.ts",
     "diff": "tsx ./src/scripts/diff.ts",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "test": "tsx --test ./src/schema/*.test.ts"
   },
   "dependencies": {
     "@inquirer/prompts": "^3.0.1",

@@ -2,7 +2,7 @@ uuid: "3f5f3de7-0056-48d1-b5fe-55bb4f395874"
 label: "easy-delivery-co"
 meta:
   displayName: "Easy Delivery Co"
-  iconUrl: "easy-delivery-co.webp"
+  iconUrl: "easy-delivery-co/easy-delivery-co-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Easy Delivery Co"
-      iconUrl: "easy-delivery-co.webp"
+      iconUrl: "easy-delivery-co/easy-delivery-co-cover-360x480.webp"
     settingsIdentifier: "EasyDeliveryCo"
     internalFolderName: "EasyDeliveryCo"
     packageIndex: "https://thunderstore.io/c/easy-delivery-co/api/v1/package-listing-index/"
@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Easy Delivery Co"
+  listed: true
+  meta:
+    icon: "easy-delivery-co/easy-delivery-co-icon-192x192.webp"
+    cover: "easy-delivery-co/easy-delivery-co-cover-360x480.webp"
+    background: "easy-delivery-co/easy-delivery-co-bg-1920x1080.webp"
+    hero: "easy-delivery-co/easy-delivery-co-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -2,36 +2,49 @@ uuid: "0b5d044e-7f08-411a-af50-40119a401460"
 label: "atlyss"
 meta:
   displayName: "ATLYSS"
+  iconUrl: "atlyss/atlyss-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "ATLYSS"
+  listed: true
+  meta:
+    icon: "atlyss/atlyss-icon-192x192.webp"
+    cover: "atlyss/atlyss-cover-360x480.webp"
+    background: "atlyss/atlyss-bg-1920x1080.webp"
+    hero: "atlyss/atlyss-bg-1920x620.webp"
   categories:
-    mods:
-      label: "Mods"
-    modpacks:
-      label: "Modpacks"
-    bundles:
-      label: "Bundles"
-    tools:
-      label: "Tools"
-    libraries:
-      label: "Libraries"
-    misc:
-      label: "Misc"
-    audio:
-      label: "Audio"
-    quests:
-      label: "Quests"
-    maps:
-      label: "Maps"
-    languages:
-      label: "Languages"
-    tweaks:
-      label: "Tweaks"
+    ai-generated:
+      label: "AI Generated"
     assets:
       label: "Assets"
+    audio:
+      label: "Audio"
+    bundles:
+      label: "Bundles"
+    customisation:
+      label: "Customisation"
     emotes:
       label: "Emotes"
+    items:
+      label: "Items"
+    languages:
+      label: "Languages"
+    libraries:
+      label: "Libraries"
+    maps:
+      label: "Maps"
+    misc:
+      label: "Misc"
+    modpacks:
+      label: "Modpacks"
+    mods:
+      label: "Mods"
+    quests:
+      label: "Quests"
+    tools:
+      label: "Tools"
+    tweaks:
+      label: "Tweaks"
   sections:
     mods:
       name: "Mods"

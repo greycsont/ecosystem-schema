@@ -2,9 +2,16 @@ uuid: "40c7d846-cff1-45fe-8679-4abe993abafb"
 label: "lethal-company"
 meta:
   displayName: "Lethal Company"
+  iconUrl: "lethal-company/lethal-company-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Lethal Company"
+  listed: true
+  meta:
+    icon: "lethal-company/lethal-company-icon-192x192.webp"
+    cover: "lethal-company/lethal-company-cover-360x480.webp"
+    background: "lethal-company/lethal-company-bg-1920x1080.webp"
+    hero: "lethal-company/lethal-company-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -70,7 +77,13 @@ thunderstore:
       label: "AI Generated"
   sections:
     mods:
-      name: "Mods"
+      name: "Mods (excluding AI)"
+      excludeCategories:
+        - "modpacks"
+        - "asset-replacements"
+        - "ai-generated"
+    mods-including-ai:
+      name: "Mods (including AI)"
       excludeCategories:
         - "modpacks"
         - "asset-replacements"

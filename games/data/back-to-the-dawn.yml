@@ -2,9 +2,16 @@ uuid: "d9438bf4-c83f-4d6d-952f-efc79b8432a1"
 label: "back-to-the-dawn"
 meta:
   displayName: "Back to the Dawn"
+  iconUrl: "back-to-the-dawn/back-to-the-dawn-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Back to the Dawn"
+  listed: true
+  meta:
+    icon: "back-to-the-dawn/back-to-the-dawn-icon-192x192.webp"
+    cover: "back-to-the-dawn/back-to-the-dawn-cover-360x480.webp"
+    background: "back-to-the-dawn/back-to-the-dawn-bg-1920x1080.webp"
+    hero: "back-to-the-dawn/back-to-the-dawn-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

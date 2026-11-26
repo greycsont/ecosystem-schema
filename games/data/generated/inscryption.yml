@@ -2,21 +2,25 @@ uuid: "833a9314-5538-43ee-969b-a563b5f92ce3"
 label: "inscryption"
 meta:
   displayName: "Inscryption"
-  iconUrl: "inscryption.webp"
+  iconUrl: "inscryption/inscryption-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1092790"
+  - platform: "xbox-game-pass"
+    identifier: "DevolverDigital.Inscryption"
   - platform: "other"
     identifier: null
 r2modman:
   - meta:
       displayName: "Inscryption"
-      iconUrl: "inscryption.webp"
+      iconUrl: "inscryption/inscryption-cover-360x480.webp"
     internalFolderName: "Inscryption"
     dataFolderName: "Inscryption_Data"
     distributions:
       - platform: "steam"
         identifier: "1092790"
+      - platform: "xbox-game-pass"
+        identifier: "DevolverDigital.Inscryption"
       - platform: "other"
         identifier: null
     settingsIdentifier: "Inscryption"

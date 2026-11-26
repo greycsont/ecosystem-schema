@@ -2,10 +2,16 @@ uuid: "52a2dfeb-584a-4c36-ab88-68faf0d10ec1"
 label: "human-fall-flat"
 meta:
   displayName: "Human Fall Flat"
-  iconUrl: "human-fall-flat.webp"
+  iconUrl: "human-fall-flat/human-fall-flat-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Human Fall Flat"
+  listed: true
+  meta:
+    icon: "human-fall-flat/human-fall-flat-icon-192x192.webp"
+    cover: "human-fall-flat/human-fall-flat-cover-360x480.webp"
+    background: "human-fall-flat/human-fall-flat-bg-1920x1080.webp"
+    hero: "human-fall-flat/human-fall-flat-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

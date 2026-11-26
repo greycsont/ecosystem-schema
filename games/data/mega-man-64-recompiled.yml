@@ -2,11 +2,17 @@ uuid: "4bb22717-7479-46da-9c27-26270b421fe4"
 label: "mega-man-64-recompiled"
 meta:
   displayName: "Mega Man 64: Recompiled"
-  iconUrl: "mega-man-64-recompiled.webp"
+  iconUrl: "mega-man-64-recompiled/mega-man-64-recompiled-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:
   displayName: "Mega Man 64: Recompiled"
+  listed: true
+  meta:
+    icon: "mega-man-64-recompiled/mega-man-64-recompiled-icon-192x192.webp"
+    cover: "mega-man-64-recompiled/mega-man-64-recompiled-cover-360x480.webp"
+    background: "mega-man-64-recompiled/mega-man-64-recompiled-bg-1920x1080.webp"
+    hero: "mega-man-64-recompiled/mega-man-64-recompiled-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

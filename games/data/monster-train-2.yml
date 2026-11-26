@@ -2,11 +2,18 @@ uuid: "d915f79b-330f-425d-bc4f-7f04bf85f7d8"
 label: "monster-train-2"
 meta:
   displayName: "Monster Train 2"
+  iconUrl: "monster-train-2/monster-train-2-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: "2742830"
 thunderstore:
   displayName: "Monster Train 2"
+  listed: true
+  meta:
+    icon: "monster-train-2/monster-train-2-icon-192x192.webp"
+    cover: "monster-train-2/monster-train-2-cover-360x480.webp"
+    background: "monster-train-2/monster-train-2-bg-1920x1080.webp"
+    hero: "monster-train-2/monster-train-2-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -21,7 +28,29 @@ thunderstore:
     audio:
       label: "Audio"
     clans:
-      label: "Clan"
+      label: "Clans"
+    quality-of-life:
+      label: "Quality of Life"
+    meme:
+      label: "Meme"
+    cosmetic:
+      label: "Cosmetic"
+    ui:
+      label: "UI"
+    translation:
+      label: "Translation"
+    merchants:
+      label: "Merchants"
+    events:
+      label: "Events"
+    battles:
+      label: "Battles"
+    mutators:
+      label: "Mutators"
+    balance:
+      label: "Balance"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
@@ -31,7 +60,7 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  wikiUrl: "https://github.com/Monster-Train-2-Modding-Group"
-  discordUrl: "https://discord.gg/Rqz4vnGa"
+  wikiUrl: "https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/wiki"
+  discordUrl: "https://discord.gg/6qBCCMU8vP"
   autolistPackageIds:
     - "BepInEx-BepInExPack"

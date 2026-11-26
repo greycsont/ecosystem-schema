@@ -2,9 +2,16 @@ uuid: "4a28a8cc-902c-4630-a4b7-79f90ae22299"
 label: "panicore"
 meta:
   displayName: "Panicore"
+  iconUrl: "panicore/panicore-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Panicore"
+  listed: true
+  meta:
+    icon: "panicore/panicore-icon-192x192.webp"
+    cover: "panicore/panicore-cover-360x480.webp"
+    background: "panicore/panicore-bg-1920x1080.webp"
+    hero: "panicore/panicore-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

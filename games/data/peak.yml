@@ -2,9 +2,16 @@ uuid: "bb2d482f-548d-4e6c-8421-0824a81f172c"
 label: "peak"
 meta:
   displayName: "PEAK"
+  iconUrl: "peak/peak-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "PEAK"
+  listed: true
+  meta:
+    icon: "peak/peak-icon-192x192.webp"
+    cover: "peak/peak-cover-360x480.webp"
+    background: "peak/peak-bg-1920x1080.webp"
+    hero: "peak/peak-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -46,6 +53,12 @@ thunderstore:
       label: "Asset Replacements"
     mixtapes:
       label: "Mixtapes"
+    ai-generated:
+      label: "AI Generated"
+    gameplay:
+      label: "Gameplay"
+    biomes:
+      label: "Biomes"
   sections:
     mods:
       name: "Mods"

@@ -2,9 +2,15 @@ uuid: "c34fe1cf-1752-4185-bb39-25e29a6394f3"
 label: "ultimate-chicken-horse"
 meta:
   displayName: "Ultimate Chicken Horse"
+  iconUrl: "ultimate-chicken-horse/ultimate-chicken-horse-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Ultimate Chicken Horse"
+  listed: true
+  meta:
+    icon: "ultimate-chicken-horse/ultimate-chicken-horse-icon-192x192.webp"
+    cover: "ultimate-chicken-horse/ultimate-chicken-horse-cover-360x480.webp"
+    hero: "ultimate-chicken-horse/ultimate-chicken-horse-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

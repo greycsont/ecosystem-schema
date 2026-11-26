@@ -2,9 +2,15 @@ uuid: "4df35e7e-e355-4ecc-b9db-76eebbff97d0"
 label: "we-love-katamari-reroll-royal-reverie"
 meta:
   displayName: "We Love Katamari REROLL+ Royal Reverie"
+  iconUrl: "we-love-katamari-reroll-royal-reverie/we-love-katamari-reroll-royal-reverie-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "We Love Katamari REROLL+ Royal Reverie"
+  listed: true
+  meta:
+    icon: "we-love-katamari-reroll-royal-reverie/we-love-katamari-reroll-royal-reverie-icon-192x192.webp"
+    cover: "we-love-katamari-reroll-royal-reverie/we-love-katamari-reroll-royal-reverie-cover-360x480.webp"
+    hero: "we-love-katamari-reroll-royal-reverie/we-love-katamari-reroll-royal-reverie-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

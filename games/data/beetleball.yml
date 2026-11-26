@@ -2,21 +2,21 @@ uuid: "4746944a-59d5-4038-8a13-f9710a4c4bb7"
 label: "beetleball"
 meta:
   displayName: "Beetleball"
-  iconUrl: "beetleball.webp"
+  iconUrl: "beetleball/beetleball-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4231580"
-    steamFolderName: "Beetleball Demo"
+        identifier: "2776270"
+    steamFolderName: "BeetleBall"
     dataFolderName: "Beetleball_Data"
     exeNames:
       - "Beetleball.exe"
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Beetleball"
-      iconUrl: "beetleball.webp"
+      iconUrl: "beetleball/beetleball-cover-360x480.webp"
     settingsIdentifier: "Beetleball"
     internalFolderName: "Beetleball"
     packageIndex: "https://thunderstore.io/c/beetleball/api/v1/package-listing-index/"
@@ -26,6 +26,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Beetleball"
+  listed: true
+  meta:
+    icon: "beetleball/beetleball-icon-192x192.webp"
+    cover: "beetleball/beetleball-cover-360x480.webp"
+    background: "beetleball/beetleball-bg-1920x1080.webp"
+    hero: "beetleball/beetleball-bg-1920x620.webp"
   shortDescription: "Score goals with dungballs in Beetleball, the Greatest Online Multiplayer Class-based Dung Beetle Soccer Game TO EVER EXIST"
   categories:
     mods:

@@ -2,7 +2,7 @@ uuid: "cc86a7a4-1f50-4c49-bbd6-d2eb960fb894"
 label: "soulcalibur-vi"
 meta:
   displayName: "SOULCALIBUR VI"
-  iconUrl: "soulcalibur-vi.webp"
+  iconUrl: "soulcalibur-vi/soulcalibur-vi-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "shimloader"
     meta:
       displayName: "SOULCALIBUR VI"
-      iconUrl: "soulcalibur-vi.webp"
+      iconUrl: "soulcalibur-vi/soulcalibur-vi-cover-360x480.webp"
     settingsIdentifier: "SoulcaliburVi"
     internalFolderName: "SoulcaliburVi"
     packageIndex: "https://thunderstore.io/c/soulcalibur-vi/api/v1/package-listing-index/"
@@ -44,9 +44,20 @@ r2modman:
         defaultFileExtensions: []
         trackingMethod: "none"
         subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "SOULCALIBUR VI"
+  listed: true
+  meta:
+    icon: "soulcalibur-vi/soulcalibur-vi-icon-192x192.webp"
+    cover: "soulcalibur-vi/soulcalibur-vi-cover-360x480.webp"
+    background: "soulcalibur-vi/soulcalibur-vi-bg-1920x1080.webp"
+    hero: "soulcalibur-vi/soulcalibur-vi-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

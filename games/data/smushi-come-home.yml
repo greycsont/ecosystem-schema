@@ -2,7 +2,7 @@ uuid: "2f046569-38e0-4bfd-91ae-fc39a7442cd7"
 label: "smushi-come-home"
 meta:
   displayName: "Smushi Come Home"
-  iconUrl: "smushi-come-home.webp"
+  iconUrl: "smushi-come-home/smushi-come-home-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Smushi Come Home"
-      iconUrl: "smushi-come-home.webp"
+      iconUrl: "smushi-come-home/smushi-come-home-cover-360x480.webp"
     settingsIdentifier: "SmushiComeHome"
     internalFolderName: "SmushiComeHome"
     packageIndex: "https://thunderstore.io/c/smushi-come-home/api/v1/package-listing-index/"
@@ -55,6 +55,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Smushi Come Home"
+  listed: true
+  meta:
+    icon: "smushi-come-home/smushi-come-home-icon-192x192.webp"
+    cover: "smushi-come-home/smushi-come-home-cover-360x480.webp"
+    background: "smushi-come-home/smushi-come-home-bg-1920x1080.webp"
+    hero: "smushi-come-home/smushi-come-home-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

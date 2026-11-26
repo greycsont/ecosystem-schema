@@ -2,11 +2,17 @@ uuid: "ca3b2a52-0598-4611-9906-bba3934e27f6"
 label: "ultrakill"
 meta:
   displayName: "ULTRAKILL"
+  iconUrl: "ultrakill/ultrakill-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1229490"
 thunderstore:
   displayName: "ULTRAKILL"
+  listed: true
+  meta:
+    icon: "ultrakill/ultrakill-icon-192x192.webp"
+    cover: "ultrakill/ultrakill-cover-360x480.webp"
+    hero: "ultrakill/ultrakill-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -38,7 +44,10 @@ thunderstore:
       label: "AI Generated"
   sections:
     mods:
-      name: "Mods"
+      name: "Mods (excluding AI)"
+      excludeCategories: ["modpacks","soundpacks","ai-generated"]
+    mods-including-ai:
+      name: "Mods (including AI)"
       excludeCategories: ["modpacks","soundpacks"]
     soundpacks:
       name: "Sound Packs"

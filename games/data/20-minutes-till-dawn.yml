@@ -1,0 +1,40 @@
+uuid: "57ae7cc1-b21a-4592-8415-73512a91b180"
+label: "20-minutes-till-dawn"
+meta:
+  displayName: "20 Minutes Till Dawn"
+  iconUrl: "20-minutes-till-dawn/20-minutes-till-dawn-cover-360x480.webp"
+distributions: []
+thunderstore:
+  displayName: "20 Minutes Till Dawn"
+  listed: true
+  meta:
+    icon: "20-minutes-till-dawn/20-minutes-till-dawn-icon-192x192.webp"
+    cover: "20-minutes-till-dawn/20-minutes-till-dawn-cover-360x480.webp"
+    background: "20-minutes-till-dawn/20-minutes-till-dawn-bg-1920x1080.webp"
+    hero: "20-minutes-till-dawn/20-minutes-till-dawn-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/qvWNeNGJD7"
+  shortDescription: "20 Minutes Till Dawn is a survival roguelite where endless hordes of creatures lurk from the dark. Craft an array of overpowering builds and eradicate waves of Lovecraftian nightmares. Will you be able to survive the night?"

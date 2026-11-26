@@ -2,12 +2,17 @@ uuid: "35a9dbb7-a4f8-4faf-a032-66352aa690cc"
 label: "r5reloaded"
 meta:
   displayName: "R5Reloaded"
-  iconUrl: ""
+  iconUrl: "r5reloaded/r5reloaded-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:
   displayName: "R5Reloaded"
-  sections: {}
+  listed: false
+  meta:
+    icon: "r5reloaded/r5reloaded-icon-192x192.webp"
+    cover: "r5reloaded/r5reloaded-cover-360x480.webp"
+    background: "r5reloaded/r5reloaded-bg-1920x1080.webp"
+    hero: "r5reloaded/r5reloaded-bg-1920x620.webp"
   categories:
     legend:
       label: "Legend"
@@ -37,6 +42,15 @@ thunderstore:
       label: "Animation"
     qol:
       label: "QoL"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpack"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpack"
   wikiUrl: "https://docs.r5reloaded.com/"
   discordUrl: "https://discord.com/invite/jqMkUdXrBr"
   autolistPackageIds: []

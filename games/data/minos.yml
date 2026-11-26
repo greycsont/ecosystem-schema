@@ -2,7 +2,7 @@ uuid: "f96148a5-903f-4d0b-8bb4-42b6e9d0c3ee"
 label: "minos"
 meta:
   displayName: "MINOS"
-  iconUrl: "minos.webp"
+  iconUrl: "minos/minos-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,17 +16,43 @@ r2modman:
     packageLoader: "shimloader"
     meta:
       displayName: "MINOS"
-      iconUrl: "minos.webp"
+      iconUrl: "minos/minos-cover-360x480.webp"
     settingsIdentifier: "Minos"
     internalFolderName: "Minos"
     packageIndex: "https://thunderstore.io/c/minos/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "牛头人迷阵"
-    installRules: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "MINOS"
+  listed: true
+  meta:
+    icon: "minos/minos-icon-192x192.webp"
+    cover: "minos/minos-cover-360x480.webp"
+    background: "minos/minos-bg-1920x1080.webp"
+    hero: "minos/minos-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -2,9 +2,16 @@ uuid: "5dbf02a7-1d75-4016-8b80-34e409c6e7b1"
 label: "gladio-mori"
 meta:
   displayName: "Gladio Mori"
+  iconUrl: "gladio-mori/gladio-mori-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Gladio Mori"
+  listed: true
+  meta:
+    icon: "gladio-mori/gladio-mori-icon-192x192.webp"
+    cover: "gladio-mori/gladio-mori-cover-360x480.webp"
+    background: "gladio-mori/gladio-mori-bg-1920x1080.webp"
+    hero: "gladio-mori/gladio-mori-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -2,9 +2,16 @@ uuid: "ede82780-6c91-4403-b444-1f4c279e784c"
 label: "among-us"
 meta:
   displayName: "Among Us"
+  iconUrl: "among-us/among-us-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Among Us"
+  listed: true
+  meta:
+    icon: "among-us/among-us-icon-192x192.webp"
+    cover: "among-us/among-us-cover-360x480.webp"
+    background: "among-us/among-us-bg-1920x1080.webp"
+    hero: "among-us/among-us-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

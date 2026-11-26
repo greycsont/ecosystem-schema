@@ -2,9 +2,16 @@ uuid: "cff97c17-16f0-46d7-874c-4c53afd280e5"
 label: "vertigo-2"
 meta:
   displayName: "Vertigo 2"
+  iconUrl: "vertigo-2/vertigo-2-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Vertigo 2"
+  listed: true
+  meta:
+    icon: "vertigo-2/vertigo-2-icon-192x192.webp"
+    cover: "vertigo-2/vertigo-2-cover-360x480.webp"
+    background: "vertigo-2/vertigo-2-bg-1920x1080.webp"
+    hero: "vertigo-2/vertigo-2-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

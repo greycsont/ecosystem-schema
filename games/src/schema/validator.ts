@@ -11,8 +11,21 @@ import {
 
 const slug = z.string().regex(new RegExp(/^[a-z0-9](-?[a-z0-9])*$/));
 
+const communityAsset = z
+  .string()
+  .regex(new RegExp(/^([a-z0-9](?:-?[a-z0-9])*)\/\1-(bg|cover|icon)-\d+x\d+\.webp$/));
+
+const communityMetaSchema = z.strictObject({
+  icon: communityAsset.optional(),
+  cover: communityAsset.optional(),
+  background: communityAsset.optional(),
+  hero: communityAsset.optional(),
+});
+
 const communitySchema = z.strictObject({
   displayName: z.string(),
+  listed: z.boolean().optional(),
+  meta: communityMetaSchema.optional(),
   categories: z.record(
     slug,
     z.strictObject({
@@ -54,9 +67,12 @@ const distributionSchema = z.strictObject({
   platform: z.enum(DistributionPlatformValues),
   identifier: z.string().optional().nullable(),
 });
+const iconUrl = z.string().regex(
+  new RegExp(/^([a-z0-9](?:-?[a-z0-9])*)\/\1-(bg|cover|icon)-\d+x\d+\.(webp|png|jpg|jpeg)$/)
+);
 const metaSchema = z.strictObject({
   displayName: z.string(),
-  iconUrl: z.string().nullable(),
+  iconUrl: iconUrl.nullable(),
 });
 
 const r2modmanSchema = z.strictObject({
@@ -76,7 +92,7 @@ const r2modmanSchema = z.strictObject({
   relativeFileExclusions: z.array(z.string()).nullable(),
 });
 
-const gameSchema = z.strictObject({
+export const gameSchema = z.strictObject({
   uuid: z.string().uuid(),
   label: slug,
   meta: metaSchema,
@@ -144,9 +160,33 @@ export function validateSchemaJson(schemaJson: any): SchemaType {
           `to use the label '${key}' but found '${game.label}'`
       );
     }
+
+    const expectedPrefix = `${game.label}/${game.label}-`;
+    const iconUrls = [
+      game.meta.iconUrl,
+      ...(game.r2modman ?? []).map((r) => r.meta.iconUrl),
+    ];
+    iconUrls.forEach((url) => {
+      if (url !== null && !url.startsWith(expectedPrefix)) {
+        throw new Error(
+          `Icon URL '${url}' for game '${game.label}' must start with '${expectedPrefix}'`
+        );
+      }
+    });
   });
 
   Object.entries(parsed.communities).forEach(([key, community]) => {
+    if (community.meta) {
+      const expectedPrefix = `${key}/${key}-`;
+      Object.values(community.meta).forEach((path) => {
+        if (path && !path.startsWith(expectedPrefix)) {
+          throw new Error(
+            `Community asset '${path}' for community '${key}' must start with '${expectedPrefix}'`
+          );
+        }
+      });
+    }
+
     (community.autolistPackageIds ?? []).forEach((packageId) => {
       if (!isAutolistPackageValid(packageId)) {
         throw new Error(

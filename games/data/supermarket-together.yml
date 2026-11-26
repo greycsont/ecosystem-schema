@@ -2,9 +2,16 @@ uuid: "8217c6e0-ec15-474e-a447-fafbf435fd64"
 label: "supermarket-together"
 meta:
   displayName: "Supermarket Together"
+  iconUrl: "supermarket-together/supermarket-together-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Supermarket Together"
+  listed: true
+  meta:
+    icon: "supermarket-together/supermarket-together-icon-192x192.webp"
+    cover: "supermarket-together/supermarket-together-cover-360x480.webp"
+    background: "supermarket-together/supermarket-together-bg-1920x1080.webp"
+    hero: "supermarket-together/supermarket-together-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

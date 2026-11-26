@@ -2,7 +2,7 @@ uuid: "03a8892c-bab6-41dd-b604-8727b41d9554"
 label: "the-spell-brigade"
 meta:
   displayName: "The Spell Brigade"
-  iconUrl: "the-spell-brigade.webp"
+  iconUrl: "the-spell-brigade/the-spell-brigade-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,12 +16,13 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "The Spell Brigade"
-      iconUrl: "the-spell-brigade.webp"
+      iconUrl: "the-spell-brigade/the-spell-brigade-cover-360x480.webp"
     settingsIdentifier: "TheSpellBrigade"
     internalFolderName: "TheSpellBrigade"
     packageIndex: "https://thunderstore.io/c/the-spell-brigade/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "咒语旅团"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
@@ -53,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "The Spell Brigade"
+  listed: true
+  meta:
+    icon: "the-spell-brigade/the-spell-brigade-icon-192x192.webp"
+    cover: "the-spell-brigade/the-spell-brigade-cover-360x480.webp"
+    background: "the-spell-brigade/the-spell-brigade-bg-1920x1080.webp"
+    hero: "the-spell-brigade/the-spell-brigade-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

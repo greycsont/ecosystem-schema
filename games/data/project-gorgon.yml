@@ -2,7 +2,7 @@ uuid: "91fea4ea-4642-4afe-b906-4d45fc8ca1a1"
 label: "project-gorgon"
 meta:
   displayName: "Project Gorgon"
-  iconUrl: "project-gorgon.webp"
+  iconUrl: "project-gorgon/project-gorgon-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -17,7 +17,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Project Gorgon"
-      iconUrl: "project-gorgon.webp"
+      iconUrl: "project-gorgon/project-gorgon-cover-360x480.webp"
     settingsIdentifier: "ProjectGorgon"
     internalFolderName: "ProjectGorgon"
     packageIndex: "https://thunderstore.io/c/project-gorgon/api/v1/package-listing-index/"
@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Project Gorgon"
+  listed: true
+  meta:
+    icon: "project-gorgon/project-gorgon-icon-192x192.webp"
+    cover: "project-gorgon/project-gorgon-cover-360x480.webp"
+    background: "project-gorgon/project-gorgon-bg-1920x1080.webp"
+    hero: "project-gorgon/project-gorgon-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

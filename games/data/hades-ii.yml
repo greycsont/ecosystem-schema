@@ -2,9 +2,16 @@ uuid: "98d80ee3-5a6e-4c15-a433-ab70200a0b90"
 label: "hades-ii"
 meta:
   displayName: "Hades 2"
+  iconUrl: "hades-ii/hades-ii-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Hades 2"
+  listed: true
+  meta:
+    icon: "hades-ii/hades-ii-icon-192x192.webp"
+    cover: "hades-ii/hades-ii-cover-360x480.webp"
+    background: "hades-ii/hades-ii-bg-1920x1080.webp"
+    hero: "hades-ii/hades-ii-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -18,6 +25,16 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    gameplay:
+      label: "Gameplay"
+    cheats:
+      label: "Cheats"
+    cosmetics:
+      label: "Cosmetics"
+    accessibility:
+      label: "Accessibility"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"

@@ -2,9 +2,16 @@ uuid: "0e914579-c6f4-4824-9920-618a668eb599"
 label: "screw-drivers"
 meta:
   displayName: "Screw Drivers"
+  iconUrl: "screw-drivers/screw-drivers-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Screw Drivers"
+  listed: true
+  meta:
+    icon: "screw-drivers/screw-drivers-icon-192x192.webp"
+    cover: "screw-drivers/screw-drivers-cover-360x480.webp"
+    background: "screw-drivers/screw-drivers-bg-1920x1080.webp"
+    hero: "screw-drivers/screw-drivers-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -2,11 +2,18 @@ uuid: "a78aee6c-e075-47d9-9c73-e4734ec3b22a"
 label: "gang-beasts"
 meta:
   displayName: "Gang Beasts"
+  iconUrl: "gang-beasts/gang-beasts-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: "285900"
 thunderstore:
   displayName: "Gang Beasts"
+  listed: true
+  meta:
+    icon: "gang-beasts/gang-beasts-icon-192x192.webp"
+    cover: "gang-beasts/gang-beasts-cover-360x480.webp"
+    background: "gang-beasts/gang-beasts-bg-1920x1080.webp"
+    hero: "gang-beasts/gang-beasts-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -20,6 +27,8 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"

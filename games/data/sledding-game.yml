@@ -2,30 +2,38 @@ uuid: "b9a26634-8303-4c60-b170-b9a1f26654b5"
 label: "sledding-game"
 meta:
   displayName: "Sledding Game"
-  iconUrl: "sledding-game.webp"
+  iconUrl: "sledding-game/sledding-game-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4029310"
-    steamFolderName: "Sledding Game Demo"
-    dataFolderName: "Sledding Game Demo_Data"
+        identifier: "3438850"
+    steamFolderName: "Sledding Game"
+    dataFolderName: "Sledding Game_Data"
     exeNames:
-      - "Sledding Game Demo.exe"
+      - "Sledding Game.exe"
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Sledding Game"
-      iconUrl: "sledding-game.webp"
+      iconUrl: "sledding-game/sledding-game-cover-360x480.webp"
     settingsIdentifier: "SleddingGame"
     internalFolderName: "SleddingGame"
     packageIndex: "https://thunderstore.io/c/sledding-game/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "滑雪游戏"
+      - "雪橇游戏"
     installRules: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "Sledding Game"
+  listed: true
+  meta:
+    icon: "sledding-game/sledding-game-icon-192x192.webp"
+    cover: "sledding-game/sledding-game-cover-360x480.webp"
+    background: "sledding-game/sledding-game-bg-1920x1080.webp"
+    hero: "sledding-game/sledding-game-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

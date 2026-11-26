@@ -2,9 +2,16 @@ uuid: "d479f68c-b484-4d90-b704-9672b826d794"
 label: "subterranauts"
 meta:
   displayName: "Subterranauts"
+  iconUrl: "subterranauts/subterranauts-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Subterranauts"
+  listed: true
+  meta:
+    icon: "subterranauts/subterranauts-icon-192x192.webp"
+    cover: "subterranauts/subterranauts-cover-360x480.webp"
+    background: "subterranauts/subterranauts-bg-1920x1080.webp"
+    hero: "subterranauts/subterranauts-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

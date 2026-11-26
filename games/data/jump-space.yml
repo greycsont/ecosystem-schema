@@ -2,7 +2,7 @@ uuid: "0749aeb4-0675-405a-b247-c4180035066b"
 label: "jump-space"
 meta:
   displayName: "Jump Space"
-  iconUrl: "jump-space.webp"
+  iconUrl: "jump-space/jump-space-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Jump Space"
-      iconUrl: "jump-space.webp"
+      iconUrl: "jump-space/jump-space-cover-360x480.webp"
     settingsIdentifier: "JumpSpace"
     internalFolderName: "JumpSpace"
     packageIndex: "https://thunderstore.io/c/jump-space/api/v1/package-listing-index/"
@@ -27,6 +27,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Jump Space"
+  listed: true
+  meta:
+    icon: "jump-space/jump-space-icon-192x192.webp"
+    cover: "jump-space/jump-space-cover-360x480.webp"
+    background: "jump-space/jump-space-bg-1920x1080.webp"
+    hero: "jump-space/jump-space-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

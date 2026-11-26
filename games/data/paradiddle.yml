@@ -2,11 +2,17 @@ uuid: "7bdd9e41-0144-4fa0-9727-580134489cfb"
 label: "paradiddle"
 meta:
   displayName: "Paradiddle"
-  iconUrl: "paradiddle.webp"
+  iconUrl: "paradiddle/paradiddle-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:
   displayName: "Paradiddle"
+  listed: true
+  meta:
+    icon: "paradiddle/paradiddle-icon-192x192.webp"
+    cover: "paradiddle/paradiddle-cover-360x480.webp"
+    background: "paradiddle/paradiddle-bg-1920x1080.webp"
+    hero: "paradiddle/paradiddle-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

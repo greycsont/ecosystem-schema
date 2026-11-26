@@ -2,9 +2,15 @@ uuid: "0ba1984d-33a7-4c8d-89da-85c0246f5af1"
 label: "gear-blocks"
 meta:
   displayName: "GearBlocks"
+  iconUrl: "gear-blocks/gear-blocks-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "GearBlocks"
+  listed: false
+  meta:
+    icon: "gear-blocks/gear-blocks-icon-192x192.webp"
+    cover: "gear-blocks/gear-blocks-cover-360x480.webp"
+    background: "gear-blocks/gear-blocks-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

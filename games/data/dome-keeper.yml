@@ -2,9 +2,15 @@ uuid: "44f7465f-65f5-4f9f-964f-9e679e580144"
 label: "dome-keeper"
 meta:
   displayName: "Dome Keeper"
+  iconUrl: "dome-keeper/dome-keeper-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Dome Keeper"
+  listed: true
+  meta:
+    icon: "dome-keeper/dome-keeper-icon-192x192.webp"
+    cover: "dome-keeper/dome-keeper-cover-360x480.webp"
+    hero: "dome-keeper/dome-keeper-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

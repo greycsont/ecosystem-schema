@@ -2,9 +2,16 @@ uuid: "e9f5de2b-6273-4af4-a4cc-f7c427e1389a"
 label: "lycans"
 meta:
   displayName: "Lycans"
+  iconUrl: "lycans/lycans-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Lycans"
+  listed: true
+  meta:
+    icon: "lycans/lycans-icon-192x192.webp"
+    cover: "lycans/lycans-cover-360x480.webp"
+    background: "lycans/lycans-bg-1920x1080.webp"
+    hero: "lycans/lycans-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

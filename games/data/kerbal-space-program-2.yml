@@ -2,9 +2,15 @@ uuid: "a7b6e172-b2f7-48f7-ae4f-bf90c76aa8c5"
 label: "kerbal-space-program-2"
 meta:
   displayName: "Kerbal Space Program 2"
+  iconUrl: "kerbal-space-program-2/kerbal-space-program-2-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Kerbal Space Program 2"
+  listed: false
+  meta:
+    icon: "kerbal-space-program-2/kerbal-space-program-2-icon-192x192.webp"
+    cover: "kerbal-space-program-2/kerbal-space-program-2-cover-360x480.webp"
+    background: "kerbal-space-program-2/kerbal-space-program-2-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

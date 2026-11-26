@@ -2,9 +2,16 @@ uuid: "ad84c3e7-0db7-4a05-b498-63a0244fa510"
 label: "gloomwood"
 meta:
   displayName: "Gloomwood"
+  iconUrl: "gloomwood/gloomwood-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Gloomwood"
+  listed: true
+  meta:
+    icon: "gloomwood/gloomwood-icon-192x192.webp"
+    cover: "gloomwood/gloomwood-cover-360x480.webp"
+    background: "gloomwood/gloomwood-bg-1920x1080.webp"
+    hero: "gloomwood/gloomwood-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

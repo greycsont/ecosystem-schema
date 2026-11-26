@@ -2,9 +2,15 @@ uuid: "da78ae80-b42f-4956-b239-bfa408594ebc"
 label: "sunkenland"
 meta:
   displayName: "Sunkenland"
+  iconUrl: "sunkenland/sunkenland-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Sunkenland"
+  listed: true
+  meta:
+    icon: "sunkenland/sunkenland-icon-192x192.webp"
+    cover: "sunkenland/sunkenland-cover-360x480.webp"
+    hero: "sunkenland/sunkenland-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

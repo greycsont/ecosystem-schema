@@ -2,11 +2,18 @@ uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
 label: "repo"
 meta:
   displayName: "R.E.P.O."
+  iconUrl: "repo/repo-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: "3241660"
 thunderstore:
   displayName: "R.E.P.O."
+  listed: true
+  meta:
+    icon: "repo/repo-icon-192x192.webp"
+    cover: "repo/repo-cover-360x480.webp"
+    background: "repo/repo-bg-1920x1080.webp"
+    hero: "repo/repo-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -40,6 +47,8 @@ thunderstore:
       label: "Server-side"
     cosmetics:
       label: "Cosmetics"
+    quality-of-life:
+      label: "Quality Of Life"
     ai-generated:
       label: "AI Generated"
   sections:

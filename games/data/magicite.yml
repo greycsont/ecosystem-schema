@@ -2,10 +2,15 @@ uuid: "8c424b9d-fa80-4b82-9be6-2ced047a1229"
 label: "magicite"
 meta:
   displayName: "Magicite"
-  iconUrl: "magicite.webp"
+  iconUrl: "magicite/magicite-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Magicite"
+  listed: true
+  meta:
+    icon: "magicite/magicite-icon-192x192.webp"
+    cover: "magicite/magicite-cover-360x480.webp"
+    background: "magicite/magicite-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

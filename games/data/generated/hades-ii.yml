@@ -2,16 +2,18 @@ uuid: "98d80ee3-5a6e-4c15-a433-ab70200a0b90"
 label: "hades-ii"
 meta:
   displayName: "Hades II"
-  iconUrl: "hades-2.webp"
+  iconUrl: "hades-ii/hades-ii-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1145350"
   - platform: "epic-games-store"
     identifier: "07c634c7291a49b5b2455e14b9a83950"
+  - platform: "xbox-game-pass"
+    identifier: "SupergiantGamesLLC.HadesII"
 r2modman:
   - meta:
       displayName: "Hades II"
-      iconUrl: "hades-2.webp"
+      iconUrl: "hades-ii/hades-ii-cover-360x480.webp"
     internalFolderName: "HadesII"
     dataFolderName: ""
     distributions:
@@ -19,6 +21,8 @@ r2modman:
         identifier: "1145350"
       - platform: "epic-games-store"
         identifier: "07c634c7291a49b5b2455e14b9a83950"
+      - platform: "xbox-game-pass"
+        identifier: "SupergiantGamesLLC.HadesII"
     settingsIdentifier: "HadesII"
     packageIndex: "https://thunderstore.io/c/hades-ii/api/v1/package-listing-index/"
     steamFolderName: "Hades II/Ship"

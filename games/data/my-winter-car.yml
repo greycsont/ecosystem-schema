@@ -2,11 +2,17 @@ uuid: "2c1534b9-6b36-4f54-90bb-65615478cac5"
 label: "my-winter-car"
 meta:
   displayName: "My Winter Car"
-  iconUrl: "my-winter-car.webp"
+  iconUrl: "my-winter-car/my-winter-car-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:
   displayName: "My Winter Car"
+  listed: true
+  meta:
+    icon: "my-winter-car/my-winter-car-icon-192x192.webp"
+    cover: "my-winter-car/my-winter-car-cover-360x480.webp"
+    background: "my-winter-car/my-winter-car-bg-1920x1080.webp"
+    hero: "my-winter-car/my-winter-car-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

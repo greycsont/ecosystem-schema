@@ -2,9 +2,16 @@ uuid: "f51778cc-ffa4-42f7-a140-9ad5c528d8f7"
 label: "labyrinthine"
 meta:
   displayName: "Labyrinthine"
+  iconUrl: "labyrinthine/labyrinthine-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Labyrinthine"
+  listed: true
+  meta:
+    icon: "labyrinthine/labyrinthine-icon-192x192.webp"
+    cover: "labyrinthine/labyrinthine-cover-360x480.webp"
+    background: "labyrinthine/labyrinthine-bg-1920x1080.webp"
+    hero: "labyrinthine/labyrinthine-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

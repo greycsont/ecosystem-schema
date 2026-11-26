@@ -2,9 +2,15 @@ uuid: "46786b60-1740-4b74-99f6-e6be6db88438"
 label: "castle-story"
 meta:
   displayName: "Castle Story"
+  iconUrl: "castle-story/castle-story-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Castle Story"
+  listed: true
+  meta:
+    icon: "castle-story/castle-story-icon-192x192.webp"
+    cover: "castle-story/castle-story-cover-360x480.webp"
+    background: "castle-story/castle-story-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

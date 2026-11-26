@@ -2,9 +2,15 @@ uuid: "375634e8-16b6-486d-aa9d-26ba422d4143"
 label: "touhou-lost-branch-of-legend"
 meta:
   displayName: "Touhou: Lost Branch of Legend"
+  iconUrl: "touhou-lost-branch-of-legend/touhou-lost-branch-of-legend-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Touhou: Lost Branch of Legend"
+  listed: true
+  meta:
+    icon: "touhou-lost-branch-of-legend/touhou-lost-branch-of-legend-icon-192x192.webp"
+    cover: "touhou-lost-branch-of-legend/touhou-lost-branch-of-legend-cover-360x480.webp"
+    hero: "touhou-lost-branch-of-legend/touhou-lost-branch-of-legend-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

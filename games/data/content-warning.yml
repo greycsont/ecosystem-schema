@@ -2,9 +2,16 @@ uuid: "fce81e4f-fb2f-4bcb-84f5-2118e79161c3"
 label: "content-warning"
 meta:
   displayName: "Content Warning"
+  iconUrl: "content-warning/content-warning-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Content Warning"
+  listed: true
+  meta:
+    icon: "content-warning/content-warning-icon-192x192.webp"
+    cover: "content-warning/content-warning-cover-360x480.webp"
+    background: "content-warning/content-warning-bg-1920x1080.webp"
+    hero: "content-warning/content-warning-bg-1920x620.webp"
   categories:
     clientside:
       label: "Client-Only"

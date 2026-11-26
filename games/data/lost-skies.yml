@@ -2,9 +2,16 @@ uuid: "0814ff73-fa5d-4d32-9248-57259fd43f9d"
 label: "lost-skies"
 meta:
   displayName: "Lost Skies"
+  iconUrl: "lost-skies/lost-skies-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Lost Skies"
+  listed: true
+  meta:
+    icon: "lost-skies/lost-skies-icon-192x192.webp"
+    cover: "lost-skies/lost-skies-cover-360x480.webp"
+    background: "lost-skies/lost-skies-bg-1920x1080.webp"
+    hero: "lost-skies/lost-skies-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

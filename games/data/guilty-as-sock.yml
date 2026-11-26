@@ -2,9 +2,16 @@ uuid: "32cca075-5dea-4bae-8ff5-1e0ccc737b0f"
 label: "guilty-as-sock"
 meta:
   displayName: "Guilty as Sock!"
+  iconUrl: "guilty-as-sock/guilty-as-sock-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Guilty as Sock!"
+  listed: true
+  meta:
+    icon: "guilty-as-sock/guilty-as-sock-icon-192x192.webp"
+    cover: "guilty-as-sock/guilty-as-sock-cover-360x480.webp"
+    background: "guilty-as-sock/guilty-as-sock-bg-1920x1080.webp"
+    hero: "guilty-as-sock/guilty-as-sock-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

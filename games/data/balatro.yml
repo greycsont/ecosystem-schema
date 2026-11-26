@@ -2,9 +2,16 @@ uuid: "ecbabbaa-076a-4fce-9211-4c90ab7f0890"
 label: "balatro"
 meta:
   displayName: "Balatro"
+  iconUrl: "balatro/balatro-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Balatro"
+  listed: true
+  meta:
+    icon: "balatro/balatro-icon-192x192.webp"
+    cover: "balatro/balatro-cover-360x480.webp"
+    background: "balatro/balatro-bg-1920x1080.webp"
+    hero: "balatro/balatro-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -18,6 +25,22 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+    content-mod:
+      label: "Content Mods"
+    gameplay-tweaks:
+      label: "Gameplay Tweaks"
+    mechanics:
+      label: "New Mechanics"
+    qol:
+      label: "Quality of Life"
+    textures:
+      label: "Textures"
+    translation:
+      label: "Translation"
+    text-changes:
+      label: "Text Changes"
   sections:
     mods:
       name: "Mods"

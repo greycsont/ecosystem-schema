@@ -1,0 +1,125 @@
+uuid: "23f8dcde-9376-4107-ba47-e8a47fa3bdee"
+label: "windrose"
+meta:
+  displayName: "Windrose"
+  iconUrl: "windrose/windrose-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3041230"
+      - platform: "epic-games-store"
+        identifier: "d08157fbe22d45fcba452680857ac58d"
+    steamFolderName: "Windrose"
+    dataFolderName: "R5"
+    exeNames:
+      - "Windrose.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "Windrose"
+      iconUrl: "windrose/windrose-cover-360x480.webp"
+    settingsIdentifier: "Windrose"
+    internalFolderName: "Windrose"
+    packageIndex: "https://thunderstore.io/c/windrose/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "WR"
+      - "风启之旅"
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Windrose"
+  listed: true
+  meta:
+    icon: "windrose/windrose-icon-192x192.webp"
+    cover: "windrose/windrose-cover-360x480.webp"
+    background: "windrose/windrose-bg-1920x1080.webp"
+    hero: "windrose/windrose-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    ai-generated:
+      label: "AI Generated"
+    audio:
+      label: "Audio"
+    building:
+      label: "Building"
+    client-side:
+      label: "Client-side"
+    companions:
+      label: "Companions"
+    crafting:
+      label: "Crafting"
+    dedicated-server:
+      label: "Dedicated Server"
+    enemies:
+      label: "Enemies"
+    gear-and-armor:
+      label: "Gear and Armor"
+    inventory-modifications:
+      label: "Inventory Modifications"
+    libraries:
+      label: "Libraries"
+    logic-mod:
+      label: "Logic Mod"
+    misc:
+      label: "Misc"
+    npcs:
+      label: "NPCs"
+    quality-of-life:
+      label: "Quality of Life"
+    server-side:
+      label: "Server-side"
+    ships:
+      label: "Ships"
+    single-player:
+      label: "Single Player"
+    skins:
+      label: "Skins"
+    tools:
+      label: "Tools"
+    tweaks:
+      label: "Tweaks"
+    ue4ss-mod:
+      label: "UE4SS Mod"
+    utility:
+      label: "Utility"
+    world-generation:
+      label: "World Generation"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://windrose.gaming.tools/"
+  discordUrl: "https://discord.gg/2GJJZAkk85"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
+  shortDescription: "Embark on a PvE survival adventure in the Age of Piracy. Fight on land and sea, solo or with friends. Build, craft and explore vast open world filled with dark secrets. Master soulslite combat and take on challenging bosses, command your ship and plunder unspoken treasures!"

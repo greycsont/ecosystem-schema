@@ -2,9 +2,16 @@ uuid: "d4f457c3-71b1-40c7-87f2-5ed5b0b67ca1"
 label: "pulsar-lost-colony"
 meta:
   displayName: "Pulsar: Lost Colony"
+  iconUrl: "pulsar-lost-colony/pulsar-lost-colony-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Pulsar: Lost Colony"
+  listed: true
+  meta:
+    icon: "pulsar-lost-colony/pulsar-lost-colony-icon-192x192.webp"
+    cover: "pulsar-lost-colony/pulsar-lost-colony-cover-360x480.webp"
+    background: "pulsar-lost-colony/pulsar-lost-colony-bg-1920x1080.webp"
+    hero: "pulsar-lost-colony/pulsar-lost-colony-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

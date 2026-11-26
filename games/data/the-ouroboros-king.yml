@@ -2,9 +2,15 @@ uuid: "5087bfff-b7c0-44ac-9870-f10624e367d1"
 label: "the-ouroboros-king"
 meta:
   displayName: "The Ouroboros King"
+  iconUrl: "the-ouroboros-king/the-ouroboros-king-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "The Ouroboros King"
+  listed: false
+  meta:
+    icon: "the-ouroboros-king/the-ouroboros-king-icon-192x192.webp"
+    cover: "the-ouroboros-king/the-ouroboros-king-cover-360x480.webp"
+    hero: "the-ouroboros-king/the-ouroboros-king-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -18,6 +24,8 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    ai-generated:
+      label: "AI Generated Content"
   sections:
     mods:
       name: "Mods"

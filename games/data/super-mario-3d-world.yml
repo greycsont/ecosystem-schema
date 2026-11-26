@@ -2,11 +2,17 @@ uuid: "88c3d6ea-d7d4-4225-819c-bac4f86b79d6"
 label: "super-mario-3d-world"
 meta:
   displayName: "Super Mario 3D World"
-  iconUrl: "super-mario-3d-world.webp"
+  iconUrl: "super-mario-3d-world/super-mario-3d-world-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:
   displayName: "Super Mario 3D World"
+  listed: false
+  meta:
+    icon: "super-mario-3d-world/super-mario-3d-world-icon-192x192.webp"
+    cover: "super-mario-3d-world/super-mario-3d-world-cover-360x480.webp"
+    background: "super-mario-3d-world/super-mario-3d-world-bg-1920x1080.webp"
+    hero: "super-mario-3d-world/super-mario-3d-world-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

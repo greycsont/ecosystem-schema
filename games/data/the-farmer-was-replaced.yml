@@ -2,7 +2,7 @@ uuid: "20fb1c8c-fa3b-48ec-b0bc-e7d1acc15355"
 label: "the-farmer-was-replaced"
 meta:
   displayName: "The Farmer Was Replaced"
-  iconUrl: "the-farmer-was-replaced.webp"
+  iconUrl: "the-farmer-was-replaced/the-farmer-was-replaced-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "The Farmer Was Replaced"
-      iconUrl: "the-farmer-was-replaced.webp"
+      iconUrl: "the-farmer-was-replaced/the-farmer-was-replaced-cover-360x480.webp"
     settingsIdentifier: "TheFarmerWasReplaced"
     internalFolderName: "TheFarmerWasReplaced"
     packageIndex: "https://thunderstore.io/c/the-farmer-was-replaced/api/v1/package-listing-index/"
@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "The Farmer Was Replaced"
+  listed: true
+  meta:
+    icon: "the-farmer-was-replaced/the-farmer-was-replaced-icon-192x192.webp"
+    cover: "the-farmer-was-replaced/the-farmer-was-replaced-cover-360x480.webp"
+    background: "the-farmer-was-replaced/the-farmer-was-replaced-bg-1920x1080.webp"
+    hero: "the-farmer-was-replaced/the-farmer-was-replaced-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

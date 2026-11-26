@@ -2,7 +2,7 @@ uuid: "f5859576-bdf8-40bb-b08b-69f5506199a4"
 label: "resonite"
 meta:
   displayName: "Resonite"
-  iconUrl: "resonite.webp"
+  iconUrl: "resonite/resonite-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepisloader"
     meta:
       displayName: "Resonite"
-      iconUrl: "resonite.webp"
+      iconUrl: "resonite/resonite-cover-360x480.webp"
     settingsIdentifier: "Resonite"
     internalFolderName: "Resonite"
     packageIndex: "https://thunderstore.io/c/resonite/api/v1/package-listing-index/"
@@ -58,6 +58,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Resonite"
+  listed: true
+  meta:
+    icon: "resonite/resonite-icon-192x192.webp"
+    cover: "resonite/resonite-cover-360x480.webp"
+    background: "resonite/resonite-bg-1920x1080.webp"
+    hero: "resonite/resonite-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -97,6 +103,8 @@ thunderstore:
       label: "Visual Tweaks"
     wizards:
       label: "Wizards"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"

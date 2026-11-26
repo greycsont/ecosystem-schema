@@ -1,0 +1,116 @@
+uuid: "acc4053d-5df8-41d3-b77f-884157b0336e"
+label: "socom-legacy"
+meta:
+  displayName: "SOCOM Legacy"
+  iconUrl: "socom-legacy/socom-legacy-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "SOCOM Legacy"
+  listed: true
+  meta:
+    icon: "socom-legacy/socom-legacy-icon-192x192.webp"
+    cover: "socom-legacy/socom-legacy-cover-360x480.webp"
+    background: "socom-legacy/socom-legacy-bg-1920x1080.webp"
+    hero: "socom-legacy/socom-legacy-bg-1920x620.webp"
+  categories:
+    maps:
+      label: "Maps"
+    missions-and-campaigns:
+      label: "Missions & Campaigns"
+    game-modes:
+      label: "Game Modes"
+    weapons-and-equipment:
+      label: "Weapons & Equipment"
+    ai-and-npcs:
+      label: "AI & NPCs"
+    models:
+      label: "Models"
+    props:
+      label: "Props"
+    textures:
+      label: "Textures"
+    visual-effects:
+      label: "Visual Effects"
+    shaders:
+      label: "Shaders"
+    audio:
+      label: "Audio"
+    music:
+      label: "Music"
+    ui-and-hud:
+      label: "UI & HUD"
+    frameworks:
+      label: "Frameworks"
+    libraries:
+      label: "Libraries"
+    tools:
+      label: "Developer Tools"
+    tweaks:
+      label: "Tweaks"
+    misc:
+      label: "Misc"
+    modpacks:
+      label: "Modpacks"
+    ai-generated:
+      label: "AI Generated Content"
+  sections:
+    all:
+      name: "All"
+      excludeCategories:
+        - "modpacks"
+    maps:
+      name: "Maps"
+      requireCategories:
+        - "maps"
+      excludeCategories:
+        - "modpacks"
+        - "tools"
+    missions:
+      name: "Missions"
+      requireCategories:
+        - "missions-and-campaigns"
+      excludeCategories:
+        - "modpacks"
+        - "tools"
+    gameplay:
+      name: "Gameplay"
+      requireCategories:
+        - "game-modes"
+        - "weapons-and-equipment"
+        - "ai-and-npcs"
+        - "tweaks"
+      excludeCategories:
+        - "modpacks"
+        - "tools"
+    assets-and-cosmetics:
+      name: "Assets & Cosmetics"
+      requireCategories:
+        - "models"
+        - "props"
+        - "textures"
+        - "visual-effects"
+        - "shaders"
+        - "audio"
+        - "music"
+        - "ui-and-hud"
+      excludeCategories:
+        - "modpacks"
+        - "tools"
+    developer-tools:
+      name: "Developer Tools"
+      requireCategories:
+        - "frameworks"
+        - "tools"
+        - "libraries"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/Scotho/socom-legacy"
+  discordUrl: "https://discord.gg/Rgg62asgYT"
+  shortDescription: "Bringing SOCOM to your browser. Built by lifelong fans, staying rigidly true to the game we love."

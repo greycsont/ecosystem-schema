@@ -2,9 +2,15 @@ uuid: "0a5f2248-3eff-408b-87ed-cd982e4f1c91"
 label: "bomb-rush-cyberfunk"
 meta:
   displayName: "Bomb Rush Cyberfunk"
+  iconUrl: "bomb-rush-cyberfunk/bomb-rush-cyberfunk-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Bomb Rush Cyberfunk"
+  listed: true
+  meta:
+    icon: "bomb-rush-cyberfunk/bomb-rush-cyberfunk-icon-192x192.webp"
+    cover: "bomb-rush-cyberfunk/bomb-rush-cyberfunk-cover-360x480.webp"
+    hero: "bomb-rush-cyberfunk/bomb-rush-cyberfunk-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

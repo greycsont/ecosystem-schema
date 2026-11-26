@@ -2,9 +2,16 @@ uuid: "c6954061-56b4-4854-b12b-b473c6bdf051"
 label: "depo"
 meta:
   displayName: "DEPO : Death Epileptic Pixel Origins"
+  iconUrl: "depo/depo-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "DEPO : Death Epileptic Pixel Origins"
+  listed: true
+  meta:
+    icon: "depo/depo-icon-192x192.webp"
+    cover: "depo/depo-cover-360x480.webp"
+    background: "depo/depo-bg-1920x1080.webp"
+    hero: "depo/depo-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
